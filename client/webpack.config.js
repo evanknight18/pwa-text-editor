@@ -16,7 +16,7 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: './src/index.html',
+        template: './index.html',
         filename: 'index.html'
       }),
       new WebpackPwaManifest({
@@ -27,7 +27,7 @@ module.exports = () => {
         display: 'standalone',
       }),
       new InjectManifest({
-        swSrc: './src/js/sw.js',
+        swSrc: './src-sw.js',
       }),
     ],
 
