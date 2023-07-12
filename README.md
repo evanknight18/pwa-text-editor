@@ -22,7 +22,7 @@ indexedDB, Heroku
 
 ## Usage
 
-N/A
+https://pwa-text-editor999-abc210ff100c.herokuapp.com/
 
 ## License
 
